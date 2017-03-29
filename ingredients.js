@@ -15,6 +15,5 @@ for (var indent = 0; indent < ingredients.length; indent++) {
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
 
 for (var indent = ingredients.length - 1; indent >= 0; indent--) {
-  console.log(indent);
   console.log(ingredients[indent]);
   }
